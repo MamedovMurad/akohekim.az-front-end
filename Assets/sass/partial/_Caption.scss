@@ -203,7 +203,7 @@
               padding: 0;
               .kol6{
                  
-                  margin:  0 0px !important;
+                  margin:  0 70px !important;
                   display: inline-block;
                width: 700px !important;
               }
@@ -229,6 +229,7 @@
 
             }
               .col-lg-3{
+                  overflow: visible;
                 .reklam{
                   
                 
@@ -321,13 +322,14 @@
                 } 
                 
                 .button-s{
+                    overflow: visible;
                     display: inline-block;
                     width: 50%;
                     margin: 0;
                     .butn{
-                        width: 200px;
+                        width: 240px;
                         display: inline-block;
-                        margin: 0;
+                        margin:0 90% ;
                     }
                 }
               }

@@ -271,7 +271,7 @@
     padding: 0;
   }
   #caption .container .row .kol6 {
-    margin: 0 0px !important;
+    margin: 0 70px !important;
     display: inline-block;
     width: 700px !important;
   }
@@ -295,6 +295,7 @@
     padding: 0 !important;
   }
   #caption .container .row .col-lg-3 {
+    overflow: visible;
     overflow: visible;
     width: 50%;
     display: inline-block;
@@ -375,14 +376,15 @@
     width: 100%;
   }
   #caption .container .row .col-lg-3 .button-s {
+    overflow: visible;
     display: inline-block;
     width: 50%;
     margin: 0;
   }
   #caption .container .row .col-lg-3 .button-s .butn {
-    width: 200px;
+    width: 240px;
     display: inline-block;
-    margin: 0;
+    margin: 0 90%;
   }
   #caption .container .row .elaqe {
     overflow: visible;
@@ -527,11 +529,6 @@
   transition: transform .3s, -webkit-transform .3s;
 }
 
-#family .container .row .col-lg-3 .row .col-lg-4 div:hover {
-  -webkit-transform: scale(0.9);
-          transform: scale(0.9);
-}
-
 #family .container .row .col-lg-3 .row .col-lg-4 div i {
   color: white;
   font-size: 50px;
@@ -649,11 +646,12 @@
     width: 209%;
   }
   #slider .who {
+    height: 450px;
     left: 90px !important;
     bottom: 10px !important;
     margin: 0 !important;
     width: 70% !important;
-    padding: 0 !important;
+    padding: 0 40px !important;
   }
 }
 
@@ -727,10 +725,10 @@
     width: 210%;
   }
   #news .new p {
-    margin-left: 36% !important;
+    margin-left: 25% !important;
   }
   #news .prim {
-    padding-left: 20%;
+    padding-left: 24%;
   }
   #news .prim h1 {
     padding: 0 !important;

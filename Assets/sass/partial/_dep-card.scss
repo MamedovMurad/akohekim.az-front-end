@@ -1,0 +1,62 @@
+
+#dep-detail{
+    background-color: rgba(214, 213, 211, 0.541);
+    padding-top: 40px;
+    .container{
+        .row{
+            .col-lg-9{
+                h1{
+                    color: $primary-color;
+                }
+                .deb-card{
+                    img{
+                        margin: 10px 0;
+                        width: 100%;
+                    }
+                    p{
+                        color: $primary-color;
+                        letter-spacing: 1px;
+                        font-family: Georgia, 'Times New Roman', Times, serif;
+                    }
+                }
+            }
+            .col-lg-3{
+                h3{
+                    color: $primary-color;
+                }
+              .quick-link{
+                  border-top: 1px solid rgba(32, 32, 73, 0.705);
+                  a{
+                   span{
+                       vertical-align: 2px;
+                       font-size: 20px;
+                       color: $primary-color;
+                   }
+                     
+                    display: block;
+                    color: $primary-color;
+                    text-decoration: none;
+                    font-size: 16px;
+                   
+                  }
+              }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.aktiv{
+    color: $secondary-color !important;
+}

@@ -1,0 +1,57 @@
+#need{
+    background-color:#FAFAFA ;
+    .container{
+        .row{
+            .col-lg-6{
+                .tel-img{
+                    img{
+                        width: 560px;
+                        height: 500px;
+                    }
+                }
+                text-align: center;
+
+                overflow: hidden;
+                h5{
+                    margin-top: 125px;
+                    color: $secondary-color;
+                }
+                .apps{
+                    padding: 20px;
+                    h1{
+                       .any{
+                           color: $primary-color;
+                       }
+                       .where{
+                           color: $secondary-color;
+                       }
+                     
+                    }
+                    p{
+                        color: $primary-color;
+                    }
+                    button{
+                        outline: none;
+                        border: none;
+                        width: 220px;
+                        height: 50px;
+                        i{
+                            font-size: 29px;
+                            margin: 10px;
+                        }
+                        &:hover{
+                            color: $secondary-color
+                          
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:500px){
+    #need{
+        width: 210%;
+    }
+}

@@ -1,0 +1,94 @@
+#news{
+    
+    .container{
+        .row{
+            .late{
+                padding-top: 30px;
+                h2{
+                    color: $primary-color;
+                    margin-bottom: 50px;
+                }
+                .new{
+                    h5{
+                        .tarix{
+                            color: $secondary-color;
+                            margin-right: 20px;
+                        }
+                        .title{
+                            display: inline-block;
+                            color: $primary-color;
+                           
+                        }
+                    }
+                    p{
+                        width: 400px;
+                        margin-left: 120px;
+                    }
+                }
+            }
+            .prim{
+                padding-top: 40px;
+                h1{
+                    margin-left: 40px;
+                    color: white;
+                }
+                background-color: $primary-color;
+                form{
+                    span{
+                        background: $secondary-color;
+                        display: block;
+                        width: 350px;
+                        height: 1px;
+                        margin-left: 40px;
+                    }
+                  
+                   
+                    input{
+                        color: white;
+                        display: block;
+                        margin: 50px 10px 10px 40px;
+                        width: 350px;
+                        border: none;
+                       
+                       outline: none;
+                        background: transparent;
+                    
+                    }
+                    button{
+                        
+                        display: block;
+                        margin: 20px 10px 10px 40px;
+                        outline: none;
+                        border: none;
+                        width: 350px;
+                        height: 40px;
+                        color: white;
+                        background-color: $secondary-color;
+                        border-radius: 8px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media(max-width:500px){
+    #news{
+        text-align: center;
+       
+        width: 210%;
+        .new{
+            p{
+                margin-left: 36% !important;
+            }
+        }
+        .prim{
+            padding-left: 20%;
+            h1{
+                padding: 0 !important;
+                margin: 0 !important;
+               margin-left: -40% !important;
+            }
+            
+        }
+    }
+}

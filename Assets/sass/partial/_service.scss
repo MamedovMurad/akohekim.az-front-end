@@ -1,0 +1,111 @@
+#service{
+    height: 760px;
+    padding-top: 100px;
+    position: relative;
+    z-index: 0;
+    top: -130px;
+    background-color: $primary-color;
+    .container{
+       
+        .row{
+          
+            .col-lg-3{
+            margin-top: 30px;
+            padding-top: 50px;
+            .departments{
+                h3{
+                    color: white;
+                }
+                position: relative;
+                z-index: 1;
+                ul{
+                    list-style: square;
+                    a{
+                        text-decoration: none;
+                        li{
+                            padding-bottom: 10px;
+                            font-size: 23px;
+                            color: $secondary-color;
+                            &:hover{
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+            .col-lg-9{
+                padding-top: 50px;
+                height: 620px;
+                margin-top: 30px;
+                background-color: white;
+                .row{
+                    .col-lg-4{
+                        .service-item{
+                            width: 260px;
+                           position: static;
+                            padding: 5px;
+                            .logo{
+                                i{
+                                    color: $secondary-color;
+                                    font-size: 50px;
+                                }
+                                margin-bottom: 10px;
+                            }
+                            h5{
+                                color: $secondary-color;
+                                
+                            }
+                            p{
+                                position: static;
+                                
+                                color: $primary-color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:500px){
+    #service{
+        height: 100%;
+        width: 210%;
+        .container{
+            height: 100%;
+            width: 100%;
+            .row{
+                width: 100%;
+                .col-lg-3{
+                    height: 100%;
+                    margin-right: 3%;
+                    display: inline-block;
+                    width: 25%;
+                    .departments{
+                        ul{
+                            a{
+
+                            }
+                        }
+                    }
+                }
+                .col-lg-9{
+                  
+                    width: 72%;
+                    height: 100%;
+                    .row{
+
+                        .col-lg-4{
+                            height: 100%;
+                            .service-item{
+                                width: 100%;
+                                height: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

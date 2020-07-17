@@ -1,0 +1,46 @@
+#foot{
+    
+    padding-top: 40px;
+    background-color:#203D67 ;
+    .container{
+        .row{
+            .col-lg-3{
+                .footlogo{
+                    font-size: 30px;
+                    color: white;
+                }
+                h4{
+                    color: white;
+                }
+                .foot-content{
+                    padding: 10px;
+                    color: $secondary-color;
+                }
+                .foot-links{
+
+                    padding: 10px;
+                   a{
+                       color: $secondary-color;
+                       margin-bottom: 10px;
+                       display: block;
+                       text-decoration: none;
+                   }
+                }
+            }
+        }
+    }
+    .sign{
+        padding-top: 19px;
+        color: $secondary-color;
+        text-align: center;
+        background-color:#1D375C ;
+    }
+}
+
+@media(max-width:500px){
+    footer{
+        #foot{
+            width: 210%;
+        }
+    }
+}
